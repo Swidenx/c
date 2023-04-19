@@ -14,3 +14,22 @@ print (menor)
 
 
 #upgrade np
+
+
+
+
+
+
+#Ejemplo de numpy de calificaciones
+import numpy as
+vector=np.array ([])
+vector=np.random.randint(10,100,10)
+aprobados=vector[vector>59]
+reprobados=vector[vector<59]
+cantidaddeaprobados=vector[vector>59].size
+cantidaddereprobados=vector[vector<59].size
+print(vector)
+print(aprobados)
+print(reprobados)
+print(cantidaddeaprobados)
+print(cantidaddereprobados)
