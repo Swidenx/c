@@ -5,7 +5,12 @@ vector=np.random.randint(1,num,num)
 mayor=vector.max()
 menor=vector.min()        
 print (vector)
-print ("El mayor es",mayor)
-print ("El menor es",menor)
+print (mayor)
+print (menor)
            
 # pip3 install.numpy
+
+
+
+
+#upgrade np
